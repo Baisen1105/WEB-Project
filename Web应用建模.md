@@ -12,7 +12,7 @@
 ## 内容
 这是Web应用和领域有关的信息规格说明。将从需求工程中决定的Web应用信息和功能需求转换为问题域模型：
 - 电影系统类图：
-![]()
+![](https://github.com/Baisen1105/WEB-Project/blob/master/images/电影系统类图.png)
 - 电影类的状态图：
 ![](https://github.com/Baisen1105/WEB-Project/blob/master/images/%E7%94%B5%E5%BD%B1%E7%B1%BB%E7%8A%B6%E6%80%81%E5%9B%BE.png)
 ## 超文本
@@ -20,10 +20,12 @@
 - 后台管理人员视图的超文本结构模型
 ![](https://github.com/Baisen1105/WEB-Project/blob/master/images/%E8%B6%85%E6%96%87%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B.png)
 - 用户访问电影系统的简化模型
-![]()
+![](https://github.com/Baisen1105/WEB-Project/blob/master/images/访问模型.png)
 ## 适应性
 根据电影系统中的用户上下文特性，给用户提供合适的展示。
 - 用户角色的超文本结构
-![]()
-- 超文本模型中索引的动态适应
-![]()
+![](https://github.com/Baisen1105/WEB-Project/blob/master/images/适应性静态模型.png)
+- 电影主页索引的动态适应
+![](https://github.com/Baisen1105/WEB-Project/blob/master/images/电影主页索引动态适应性模型.png)
+- 电影评论索引的动态适应
+![](https://github.com/Baisen1105/WEB-Project/blob/master/images/评论索引动态适应性模型.png)
