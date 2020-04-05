@@ -29,3 +29,4 @@
 ![](https://github.com/Baisen1105/WEB-Project/blob/master/images/电影主页索引动态适应性模型.png)
 - 电影评论索引的动态适应：
 ![](https://github.com/Baisen1105/WEB-Project/blob/master/images/评论索引动态适应性模型.png)
+
