@@ -1,6 +1,6 @@
 web开发三层架构：
-   表示层（UI）、业务逻辑层(BLL)、数据访问层(DAL)
-
+   表示层（UI）、业务逻辑层(BLL)、数据访问层(DAL)  
+![架构设计图](https://github.com/Baisen1105/WEB-Project/blob/master/images/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)  
 一、系统各层次职责
 
 1.UI（UserInterface）层的职责是数据的展现和采集，数据采集的结果通常以Entityobject提交给BL层处理ServiceInterface侧层用于将业务或数据资源发布为服务（如WebServices）。
