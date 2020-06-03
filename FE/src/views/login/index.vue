@@ -10,7 +10,7 @@
         <hr style="width:600px; height:3px; green"/>
       </div>
       <div id="loginform" style="width:500px;" >
-        <el-form :model="loginForm" :rules="loginFormRules">
+        <el-form :model="loginForm" :rules="loginFormRules" ref="loginFormRef">
           <el-form-item style="margin-bottom:50px">
             <el-input prefix-icon="el-icon-user" placeholder="账号" v-model="loginForm.phonenumber">
             </el-input>
@@ -53,7 +53,6 @@ export default {
             required: true,
             min: 3,
             max: 11,
-            message: '请输入11位手机号',
             trigger: 'change'
           }
         ],
@@ -71,6 +70,7 @@ export default {
         console.log(valid)
         sessionStorage.setItem('isLogin', 'true')
         sessionStorage.setItem('account', this.loginForm.phonenumber)
+        this.$router.push('/home')
         // sessionStorage.setItem('username', res.data.readername)
         /* if (valid) {
           const params = new URLSearchParams()
